@@ -82,7 +82,6 @@ body {
 }
 .container {
   max-width: none;
-
 }
 .content__inner {
   flex: 1 1 auto;
@@ -96,10 +95,8 @@ body {
   margin-bottom: 60px;
 }
 
-
 .logo {
-  border-radius: 50%;
-  
+  border-radius: 10px;
   width: 60px;
   height: 40px;
 }
@@ -116,11 +113,14 @@ body {
   border-radius: 10px;
   border: none;
   text-decoration: none;
-  color: white;
+
   text-transform: uppercase;
   font-size: 15px;
 }
-.header__burger{
+.nav__button a {
+  color: white;
+}
+.header__burger {
   display: none;
 }
 
@@ -140,7 +140,6 @@ body {
   border-radius: 10px;
 }
 .aside li a {
-
   text-decoration: none;
   color: white;
   font-family: 'Lucida Console', 'Courier New', monospace;
@@ -189,7 +188,6 @@ h2 {
   object-fit: contain;
 }
 
-
 /* FOOTER */
 .footer {
   display: flex;
@@ -211,9 +209,9 @@ h2 {
 }
 
 @media (max-width: 960px) {
-  h2{
-  font-size: 25px;
-}
+  h2 {
+    font-size: 25px;
+  }
   .container {
     max-width: 960px;
   }
@@ -223,16 +221,16 @@ h2 {
     margin-left: 5px;
   }
   .section {
-width: 85%;
-margin-left: 10px;
-}
+    width: 85%;
+    margin-left: 10px;
+  }
   .aside li {
     border: 5px solid rgb(38, 143, 111);
     border-radius: 10px;
-    padding: 20px 0;
+  padding: 21px 0;
   }
-  .aside li a{
-    padding: 24px 70px;
+  .aside li a {
+    padding: 25px 62px;
   }
   .aside li:nth-child(1) {
     background: url('../img/mountain_bike.svg') 50%/110px 64px no-repeat;
@@ -264,23 +262,21 @@ margin-left: 10px;
   }
   .article__prewiew {
     width: 90%;
-   
   }
-  
 }
 
 @media (max-width: 480px) {
   .container {
     max-width: 480px;
   }
-  .section{
+  .section {
     width: 100%;
     margin: 0 10px;
   }
-  .nav__button{
+  .nav__button {
     display: none;
   }
-  .header__burger{
+  .header__burger {
     display: block;
   }
   .section__article {
@@ -288,9 +284,8 @@ margin-left: 10px;
     margin-bottom: 100px;
   }
   .article__prewiew {
-  width: 100%;
-
-}
+    width: 100%;
+  }
   .aside {
     display: none;
   }
@@ -299,13 +294,11 @@ margin-left: 10px;
   .footer__aside:nth-child(3) {
     display: none;
   }
-  h2{
+  h2 {
     font-size: 30px;
     text-transform: uppercase;
-    
   }
 }
-
 
 /* @media (max-width: 1300px) {
   .article__prewiew {
